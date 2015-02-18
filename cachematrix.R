@@ -8,9 +8,9 @@
 ## can cache a matrix and its inverse
 ## 'x' is the original matrix
 ## 'makeCacheMatrix$set(x)' sets a new value for the matrix, and nullifies the value of the inverse
-## 'makeCacheMatrix$get' returns the stored matrix
+## 'makeCacheMatrix$get()' returns the stored matrix
 ## 'makeCacheMatrix$setInv(y)' sets the inverse of the stored matrix
-## 'makeCacheMatrix$getInv' returns the value of the stored matrix inverse, or NULL
+## 'makeCacheMatrix$getInv()' returns the value of the stored matrix inverse, or NULL
 
 makeCacheMatrix <- function(x = matrix()) {
   Inv <- NULL
